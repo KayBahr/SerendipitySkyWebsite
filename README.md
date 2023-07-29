@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Kay Bahr</h1>
 <h3 align="center">A passionate full-stack developer from the USA.</h3>
 
-- 🔭 I’m currently working on **Alvaro's Dog and Pet Company Website.**
+- 🔭 I’m currently working on **Serendipity Sky Website**
 
 - 🌱 I’m currently learning **APIs.**
 
