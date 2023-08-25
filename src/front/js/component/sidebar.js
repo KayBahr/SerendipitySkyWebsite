@@ -11,16 +11,16 @@ export const Sidebar = () => {
                     <Link to="/" className="link-button">
                         <button className="button-side"><House /> Home</button>
                     </Link>
-                    <Link to="/" className="link-button">
+                    <Link to="/shop" className="link-button">
                         <button className="button-side"><Bag /> Shop</button>
                     </Link>
-                    <Link to="/" className="link-button">
+                    <Link to="/gallery" className="link-button">
                         <button className="button-side"><Camera /> Gallery</button>
                     </Link>
-                    <Link to="/" className="link-button">
+                    <Link to="/faq" className="link-button">
                         <button className="button-side"><QuestionCircle /> FAQ</button>
                     </Link>
-                    <Link to="/" className="link-button">
+                    <Link to="/aboutus" className="link-button">
                         <button className="button-side"><FileEarmarkPerson /> About Us</button>
                     </Link>
                 </div>

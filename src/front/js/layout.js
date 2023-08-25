@@ -4,6 +4,10 @@ import ScrollToTop from "./component/scrollToTop";
 import { BackendURL } from "./component/backendURL";
 
 import { Home } from "./pages/home";
+import { Shop } from "./pages/shop";
+import { Gallery } from "./pages/gallery";
+import { Faq } from "./pages/faq";
+import { AboutUs } from "./pages/aboutus";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 import { ResetPass } from "./pages/resetpass";
@@ -26,6 +30,10 @@ const Layout = () => {
                     <Navbar />
                     <Routes>
                         <Route element={<Home />} path="/" />
+                        <Route element={<Shop />} path="/shop" />
+                        <Route element={<Gallery />} path="/gallery" />
+                        <Route element={<Faq />} path="/faq" />
+                        <Route element={<AboutUs />} path="/aboutus" />
                         <Route path="/login" element={<Login />} />
                         <Route path="/private" element={<Private />} />
                         <Route path="/register" element={<Register />} />
