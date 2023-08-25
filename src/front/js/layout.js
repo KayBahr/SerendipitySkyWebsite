@@ -11,6 +11,7 @@ import Private from "./pages/private";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
+import { Sidebar } from "./component/sidebar";
 import { Footer } from "./component/footer";
 
 const Layout = () => {
@@ -31,6 +32,7 @@ const Layout = () => {
                         <Route path="/resetpassword" element={<ResetPass />} />
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
+                    <Sidebar />
                     <Footer />
                 </ScrollToTop>
             </BrowserRouter>
