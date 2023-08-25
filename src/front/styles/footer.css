@@ -1,0 +1,40 @@
+.footer {
+    background-color: pink;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.footer-logo {
+    flex: 1;
+}
+  
+.footer-copyright {
+    flex: 1;
+}
+  
+.footer-contact {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.smaller-logo {
+    width: 50px;
+    height: auto;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+}

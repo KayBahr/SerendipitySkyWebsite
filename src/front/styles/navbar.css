@@ -1,0 +1,12 @@
+.navbar {
+    background-color: pink;
+}
+.small-logo {
+    width: 150px;
+    height: auto;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+}
