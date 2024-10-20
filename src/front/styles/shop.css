@@ -1,1 +1,8 @@
 /*shop css*/
+.shop-container {
+    margin-top: 25px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
