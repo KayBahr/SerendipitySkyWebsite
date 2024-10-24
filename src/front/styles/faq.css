@@ -1,1 +1,27 @@
 /*faq css*/
+.faq-container {
+    align-items: left;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: left;
+    padding-bottom: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    margin-bottom: 25px;
+    line-height: 75px;
+}
+
+h2 {
+    line-height: 75px;
+}
+
+p {
+    line-height: 30px;
+}
+
+body{
+    overflow-y: scroll;
+}

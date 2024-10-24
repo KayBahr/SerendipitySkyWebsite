@@ -7,7 +7,7 @@ export const FAQ = () => {
 
 	return (
 		<div className="faq-container">
-			<h1>FAQs</h1>
+			<h1>Frequently Asked Questions</h1>
 			<h2>Can I get a free quote?</h2>
 				<p>Yes ! You can always submit an order or a quote for free.</p>
 			<h2>What is the turnaround time?</h2>
