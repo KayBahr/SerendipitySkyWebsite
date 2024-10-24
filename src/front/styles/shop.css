@@ -1,6 +1,8 @@
 /*shop css*/
 .shop-container {
     margin-top: 25px;
+    font-family: 'Libre Bodoni', cursive;
+    font-style: italic;
 }
 ul {
     display: flex;
